@@ -35,43 +35,43 @@ Steps involved:
 
 **With 0,1,6 column**
 
-**KNN**:
+**KNN**:<br/>
 
-Accuracy = 0.890621354693211
-[[43821  4081]
- [ 4358 24894]]
-precision and recall: (0.9148052273391508, 0.9095456526702506)
+Accuracy = 0.890621354693211<br/>
+[[43821  4081]<br/>
+ [ 4358 24894]]<br/>
+precision and recall: (0.9148052273391508, 0.9095456526702506)<br/>
 
-**Decision tree**:30 depth
-0.8560930087876195
-[[43603  4299]
- [ 6804 22448]]
-precision and recall: (0.9107344160995365, 0.8650116984573899)
+**Decision tree**:30 depth<br/><br/>
+0.8560930087876195<br/>
+[[43603  4299]<br/>
+ [ 6804 22448]]<br/><br/>
+precision and recall: (0.9107344160995365, 0.8650116984573899)<br/>
 
-**SVM**
-*linear*
-0.6379042187803772
-[[15529  3495]
- [ 7680  4158]]
+**SVM**<br/>
+*linear*<br/>
+0.6379042187803772<br/>
+[[15529  3495]<br/>
+ [ 7680  4158]]<br/>
  
-*Rbf*
-0.6516103946600998
-[[17786  1238]
- [ 9514  2324]]
+*Rbf*<br/>
+0.6516103946600998<br/><br/>
+[[17786  1238]<br/>
+ [ 9514  2324]]<br/>
 
 
-**With all columns**:
-**KNN**:
-0.9572284003421728
-[[46030  1872]
- [ 1428 27824]]
-precision and recall: (0.9609202120997036, 0.969910236419571)
+**With all columns**:<br/>
+**KNN**:<br/>
+0.9572284003421728<br/>
+[[46030  1872]<br/>
+ [ 1428 27824]]<br/>
+precision and recall: (0.9609202120997036, 0.969910236419571)<br/>
 
-**Decision tree**:30 depth:
-0.97615159291806
-[[47166   736]
- [ 1104 28148]]
-precision and recall: (0.9842804058285667, 0.9768371765388361)
+**Decision tree**:30 depth:<br/>
+0.97615159291806<br/>
+[[47166   736]<br/>
+ [ 1104 28148]]<br/><br/>
+precision and recall: (0.9842804058285667, 0.9768371765388361)<br/>
 
 Decision tree performed really well on the data,F1 score was 98%.
 Knn was also good, but SVM(linear and rbf) was not good.
