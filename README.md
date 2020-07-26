@@ -10,7 +10,7 @@ Steps involved:
 
 - After loading the dataset given by CAE:
 1. Replacing the “empty/blank” options with the median of the specified column
-2. Normalizing the data to get it in range of -1 to 1
+2. Normalizing the data to get it in range of 0 to 1
 3. There is no categorical data.
 
 - For cross validation purpose:
